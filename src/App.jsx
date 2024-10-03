@@ -1,9 +1,11 @@
 import './App.css'
+import Board from './Components/Board/Board'
 
 function App() {
+  const board = ["X", "X" ,"X", "X", "X", "X", "X", "X", "X"]
   return (
     <>
-    <Box value="X" onClick={null} />
+    <Board board={board} onClick={null}/>
     </>
   )
 }
